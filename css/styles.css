@@ -1,0 +1,98 @@
+/*ID STYLING*/
+
+/*CLASS STYLING*/
+.navi {
+    font-size: 100px;
+}
+.imgcont {
+    flex: 0.8;
+}
+.icon1_1, .icon1_2, .icon2_1, .icon2_2, .icon3_1, .icon3_2, .icon4_1, .icon4_2, .icon5_1, .icon5_2, .icon6_1, .icon6_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mobileonlyicons {
+    display: flex;
+    flex-direction: column;
+}
+.pnum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.makebutton {
+    display: flex;
+    align-items: flex-end;
+}
+.logoover {
+    color: rgb(0,230,64);
+}
+.logothe {
+    color: rgb(150,40,27);
+}
+.logoweekend {
+    color: rgb(21,21,21);
+}
+.dsklogo {
+    display: none;
+}
+.projectcont1, .projectcont2 {
+    display: flex;
+}
+.pic1 {
+
+}
+.pic2 {
+
+}
+.projectcont3, .projectcont4, .projectcont5, .projectcont6 {
+    display: none;
+}
+/*TAG STYLING*/
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: 'Black Ops One', cursive;
+    background-color: rgb(255, 255, 255);
+}
+html {
+    margin: 0 auto;
+}
+a {
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(0,230,64);
+}
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+/*ID STYLING DESKTOP*/
+
+/*CLASS STYLING DESKTOP*/
+
+.fa-arrow-circle-up, .fa-question-circle {
+    display: none;
+}
+.projectcon1, .projectcon2, .projectcont3, .projectcont4, .projectcont5, .projectcont6 {
+    position: relative;
+}
+.desktoplogo1, .desktoplogo2 {
+    display: block;
+}
+header {
+    display: none;
+    }
+
+    /*TAG STYLING DESKTOP*/
+
+
+}
